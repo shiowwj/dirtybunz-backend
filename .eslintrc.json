@@ -99,7 +99,6 @@
  ],
  "extends": [
    "eslint:recommended",
-   "airbnb-base"
  ],
  "plugins": [
    "@typescript-eslint"
