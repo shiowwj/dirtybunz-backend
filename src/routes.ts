@@ -6,6 +6,7 @@ const routes = Router();
 
 
 routes.get('/testDbsApi', (req,res)=>{
+ console.log('REQUEST!', req)
  res.send('hello test');
 })
 routes.use('/common', commonServices)
